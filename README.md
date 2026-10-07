@@ -38,6 +38,8 @@ is the companion Claude Code plugin: it shows your issues as a live kanban board
 beside chat and keeps it current as you work. It's listed in the Claude directory.
 Issues these skills create or close show up on the board automatically.
 
+[![Sideboard: a live GitHub Issues board beside Claude Code chat](https://raw.githubusercontent.com/mmyslin/sideboard/main/sideboard.png)](https://github.com/mmyslin/sideboard)
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
