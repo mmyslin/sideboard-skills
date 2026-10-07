@@ -4,6 +4,10 @@
 set -euo pipefail
 
 cd "$(dirname "$0")/.."
+
+# Every skill must carry the current shared conventions (one source: shared/conventions.md).
+python3 scripts/sync-conventions.py --check
+
 rm -rf dist
 mkdir -p dist
 
