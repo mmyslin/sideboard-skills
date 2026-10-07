@@ -11,7 +11,7 @@ the agent reads your **code**, not just issue titles, so suggestions, orderings,
 | [`backlog-order`](skills/backlog-order/SKILL.md) | **Order it.** Works out which issues depend on which, from the code, and records the order as GitHub's native "blocked by" links. |
 | [`backlog-next`](skills/backlog-next/SKILL.md) | **Pick from it.** Answers "what should I work on next?" with the most valuable unblocked issue and a code-grounded reason, then offers to start it. |
 | [`backlog-keeper`](skills/backlog-keeper/SKILL.md) | **Keep it current.** While you work: offers to file what you decide to build, marks issues in progress when you start, and closes them with a commit link once the work is pushed. |
-| [`backlog-cleanup`](skills/backlog-cleanup/SKILL.md) | **Prune it.** Checks open issues against the code and proposes closing the ones already implemented (with evidence) or merging duplicates. |
+| [`backlog-cleanup`](skills/backlog-cleanup/SKILL.md) | **Prune it.** Checks open issues against the code and proposes closing the ones already implemented (with evidence) or merging duplicates, and clearing "in progress" labels that have gone stale. |
 
 Each skill works on its own; together they share one set of conventions, all native to
 GitHub, with no extra files in your repo:
