@@ -9,8 +9,12 @@ Keep the backlog honest during ordinary coding sessions, so it never needs a sep
 catch-up pass. Mention each change in one short line, and never let it derail the
 user's actual task.
 
-If the Sideboard plugin's `sideboard` skill is available in this session, let it track
-the roadmap and don't act on this skill. Running both would file and close issues twice.
+**Step aside only where Sideboard manages the repository**: that is, when the Sideboard
+plugin's `sideboard` skill is available in this session **and** the repository has a
+`.sideboard/meta.json` file. There, let Sideboard's skill track the work and don't act on
+this one, so issues aren't filed or closed twice. Everywhere else, including a repository
+without that file while the Sideboard plugin is installed, Sideboard isn't tracking the
+work, so this skill's rules apply.
 
 <!-- conventions:start -->
 ## Conventions (shared by the backlog-* skills)
